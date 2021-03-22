@@ -14,3 +14,41 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.form-group {
+  margin-top: 30px;
+  padding: 10px;
+  width: 350px;
+}
+
+.form-group label {
+  display: flex;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 6px;
+  color: #104cd6;
+  border: solid 1px #797777;
+}
+
+.form-group textarea {
+  width: 100%;
+  height: 150px;
+  padding: 6px;
+  color: #0d0d0e;
+  border: solid 1px #797777;
+}
+
+.form-group button {
+  padding: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100px;
+    border: solid 1px #3e3b3b;
+    border-radius: 4px;
+    background-color: #004fffc2;
+    color: #fff;
+}
